@@ -1,0 +1,20 @@
+.gridContainer {
+    display: flex;
+    flex-direction: column; /* Apilar las tarjetas verticalmente */
+    gap: 1.5rem; /* gap-6 */
+}
+
+/* Verificar si estos estilos sirven para algo (los de abajo de este comentario)*/
+.smGridCols2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr)); /* sm:grid-cols-2 */
+}
+
+.lgGridCols4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr)); /* lg:grid-cols-4 */
+}
+
+.section {
+    padding-top: 30px; /* Ajusta este valor según la altura de tu NavBar */
+}
+
+

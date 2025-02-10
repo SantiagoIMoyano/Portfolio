@@ -1,0 +1,77 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: fixed;
+    background-color: #0d1117;
+    pointer-events: none; /* Permitir el desplazamiento de la página */
+    border-bottom: 1px solid rgb(116, 114, 114); /* Agregar una línea límite inferior de color blanco */
+    padding: 0.5rem 0;
+    z-index: 1000;
+}
+
+.navContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+
+.placeholder {
+    display: none;
+    height: auto;
+    width: 100%;
+}
+
+/* Botón Hamburguesa: oculto en pantallas grandes */
+.hamburger {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Efecto al estar abierto (convierte el ícono hamburguesa en cruz) */
+.hamburger.open .bar:nth-child(1) {
+    transform: translateY(6.5px) rotate(48deg);
+  }
+  
+.hamburger.open .bar:nth-child(2) {
+    opacity: 0; /* Oculta la barra del medio */
+  }
+  
+.hamburger.open .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-48deg);
+  }
+  
+
+/* Íconos del botón */
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 4px;
+    margin-right: 20px;
+    background-color: #c9d1d9;
+    transition: all 0.3s ease;
+    pointer-events: auto;
+}
+
+/* Media Query para pantallas <= 827px */
+@media (max-width: 827px) {
+    .navbar {
+        flex-direction: column; /* Cambia a vertical */
+        border-bottom: 1px solid rgb(116, 114, 114);
+    }
+
+    .navContainer {
+        display: block;
+        flex-direction: column; /* Cambia a vertical */
+    }
+
+    .hamburger {
+        display: block;
+        width: 45px;
+    }
+}

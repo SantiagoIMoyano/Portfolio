@@ -1,0 +1,36 @@
+.container {
+    text-align: center;
+  }
+  
+  .imageContainer {
+    margin-bottom: 20px;
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+    max-width: 1920px;
+  }
+  
+  .description {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .highlight {
+    font-weight: bold;
+    color: #007acc;
+  }
+
+  .skillsInvolvedContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .containerLink {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+  }

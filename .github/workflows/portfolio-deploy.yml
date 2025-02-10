@@ -1,0 +1,28 @@
+name: Portfolio Deploy
+on: [push]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    env:
+      MYSQL_DATABASE_HOST: ${{ secrets.MYSQL_DATABASE_HOST }}
+      MYSQL_DATABASE_PORT: ${{ secrets.MYSQL_DATABASE_PORT }}
+      MYSQL_DATABASE: ${{ secrets.MYSQL_DATABASE }}
+      MYSQL_USER: ${{ secrets.MYSQL_USER }}
+      MYSQL_PASSWORD: ${{ secrets.MYSQL_PASSWORD }}
+      MYSQL_ROOT_PASSWORD: ${{ secrets.MYSQL_ROOT_PASSWORD }}
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+
+      - name: Install Docker Compose
+        run: sudo apt-get update && sudo apt-get install -y docker-compose
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v1
+
+      - name: Build Docker images
+        run: docker-compose -f docker-compose.yml build
+
+      - name: Deploy containers
+        run: docker-compose -f docker-compose.yml up

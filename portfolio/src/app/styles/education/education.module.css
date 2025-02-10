@@ -1,0 +1,34 @@
+.educationContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+}
+
+.columnsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* Estilos para el Subtítulo */
+.subtitle {
+    font-size: 1.2em; /* Ajusta el tamaño de la fuente según tus necesidades */
+    color: #c9d1d9; /* Color gris para el subtítulo */
+    text-align: center; /* Asegura que el texto esté centrado */
+    font-weight: 500; /* Peso de fuente medio para resaltar el subtítulo */
+}

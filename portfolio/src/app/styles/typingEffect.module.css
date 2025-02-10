@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+.orbitron-presentation {
+    font-family: "Orbitron", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3em; /* Tamaño de título */
+    text-align: center; /* Centrar el texto */
+    display: block; /* Asegura que el texto ocupe toda la línea */
+    margin: 0 auto; /* Centrar horizontalmente */
+    opacity: 1;
+    transition: opacity 2s ease-out; /* Transición para el desvanecimiento */
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Altura completa de la pantalla */
+}
+
+.fade-out {
+    opacity: 0;
+}

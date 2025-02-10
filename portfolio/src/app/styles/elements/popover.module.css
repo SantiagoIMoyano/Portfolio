@@ -1,0 +1,26 @@
+.driverjsTheme {
+  background: #000000;
+  color: #ffffff;
+  border: 2px solid; /* Necesario para que border-image funcione */
+  border-image: linear-gradient(120deg, #00FFFF, #FF00FF, #00fff2) 1;
+  animation: gradientAnimation 5s ease infinite;
+  transition: width 0.19s ease, height 0.19s ease; /* Añadir transición suave */
+}
+
+.driverjsTheme button {
+  flex: 1;
+  margin-left: 10px;
+  text-align: center;
+  background-color: #ffffff;
+  color: #000000;
+  border: 2px solid #ffffff;
+  text-shadow: none;
+  font-size: 14px;
+  padding: 5px 8px;
+  border-radius: 50px;
+}
+
+.driverjsTheme button:hover {
+  background-color: #000;
+  color: #ffffff;
+}

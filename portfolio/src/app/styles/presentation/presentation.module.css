@@ -1,0 +1,116 @@
+.presentationContainer {
+    margin-top: 4rem; /* Añadir margen superior para separar el componente de la parte superior de la pantalla */
+    width: 100%; /* Asegurar que el contenedor ocupe todo el ancho */
+    height: 100%;
+  }
+
+.cardContainer {
+    display: flex;
+    flex-direction: row; /* Alinear la imagen a la derecha y el contenido a la izquierda */
+    align-items: center; /* Alinear verticalmente al centro */
+    box-shadow: 0 1px 2px rgba(233, 9, 9, 0.05);
+    margin-bottom: 1rem; /* Añadir margen inferior para separar las tarjetas */
+}
+
+.profileContainer {
+  display: flex;
+  flex-direction: column; /* Colocar los iconos de redes sociales debajo de la foto de perfil */
+  align-items: center;
+}
+
+.cardHeader {
+    align-self: flex-start; /* Alinear el título en la parte superior izquierda */
+    padding: 0rem;
+}
+
+.cardTitle {
+    margin-left: 0rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.cardValue {
+    overflow: hidden;
+    border-radius: 1rem;
+    background-color: transparent;
+    padding: 2rem 2rem;
+    text-align: center;
+    font-size: 1.3rem;
+    width: 700px; /* Ajustar el ancho del contenedor del texto */
+    display: flex; /* Usar flexbox para centrar el contenido */
+    align-items: center; /* Centrar verticalmente */
+    justify-content: center; /* Centrar horizontalmente */
+}
+
+.socialLinks {
+    display: flex;
+    overflow: hidden;
+    width: 109px; /* Ajusta el tamaño del ícono según sea necesario */
+    height: 55px;
+    justify-content: center; /* Centrar los íconos horizontalmente */
+    align-items: center; /* Alinear verticalmente al centro */
+    margin-top: 1rem;
+    gap: 1rem; /* Espacio entre los íconos */
+  }
+  
+  .socialLinks img {
+    width: 100%;
+    transition: transform 0.3s ease; /* Añadir transición para el efecto de hover */
+  }
+  
+  .socialLinks a:hover img {
+    transform: scale(1.1); /* Aumentar ligeramente el tamaño del ícono al pasar el ratón */
+  }
+  
+  .downloadButton {
+    margin-top: 1rem; /* Añadir margen superior para separar el botón de los iconos de redes sociales */
+    margin-left: 0.5rem;
+}
+
+.button {
+    font-family: "Orbitron", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #bbc2c9;
+    color:  #0d1117;
+    cursor: pointer;
+    transition: transform 0.3s ease; /* Añadir transición para el efecto de hover */
+}
+
+.button:hover {
+  background: linear-gradient(120deg, #00FFFF, #FF00FF, #00fff2);
+  background-size: 300% 300%;
+  animation: gradientAnimation 10s ease infinite;
+  transition: width 0.5s ease, height 0.5s ease; /* Añadir transición suave */
+  transform: scale(1.1); /* Aumentar ligeramente el tamaño del ícono al pasar el ratón */
+}
+
+@media (max-width: 1146px) {
+  .presentationContainer {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .cardContainer {
+    width: 100%;
+    flex-direction: column;
+    align-items: start;
+  }
+  
+  .profileContainer {
+    order: -1; 
+    margin-bottom: 1rem; 
+    width: 100%;
+  }
+  
+  .cardValue {
+    order: 0;
+    width: 100%;
+    padding: 0rem 0rem;
+  }
+}

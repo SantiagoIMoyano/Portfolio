@@ -1,0 +1,15 @@
+.columnContainer {
+    column-count: 2; /* Número de columnas */
+    column-gap: 2rem; /* Espacio entre columnas */
+    width: 100%; /* Asegurar que el contenedor ocupe todo el ancho */
+    word-wrap: break-word; /* Permitir que las palabras largas se dividan */
+    margin-top: 3rem;
+  }
+  
+  @media (max-width: 768px) {
+    .columnContainer {
+      column-count: 1; /* Cambiar a una columna en pantallas pequeñas */
+    }
+  }
+
+

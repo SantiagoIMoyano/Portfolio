@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; /* Centrar verticalmente las columnas con respecto a la imagen */
+    width: 100%;
+  }
+  
+  .imageSection {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px; /* Añadir margen derecho para separar de las columnas */
+  }
+  
+  .skills {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .columns {
+    flex: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 20px; /* Añadir margen izquierdo para separar de la imagen */
+  }
+  
+  .column {
+    flex: 1;
+    margin: 0 10px;
+  }
+
+/* Estilos para el Subtítulo */
+.subtitle {
+    font-size: 1.2em;
+    color: #c9d1d9;
+    margin-bottom: 20px; /* Espacio entre el subtítulo y la imagen */
+    font-weight: 500;
+}
+  
+@media (max-width: 654px) {
+  .container {    
+    display: block;
+  }
+
+  .imageSection{
+    margin-right: 0;
+  }
+}
