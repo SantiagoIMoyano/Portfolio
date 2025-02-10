@@ -25,4 +25,18 @@ jobs:
         run: docker-compose -f docker-compose.yml build
 
       - name: Deploy containers
-        run: docker-compose -f docker-compose.yml up
+        run: docker-compose -f docker-compose.yml up -d
+
+      - name: Esperar y comprobar que el portfolio responde
+        run: |
+          echo "Esperando a que el servicio del portfolio esté disponible..."
+          for i in {1..10}; do
+            if curl --fail http://localhost:3000; then
+              echo "El portfolio está disponible."
+              exit 0
+            fi
+            echo "Intento $i: El portfolio aún no responde, esperando 5 segundos..."
+            sleep 15
+          done
+          echo "El portfolio no respondió a tiempo."
+          exit 1
