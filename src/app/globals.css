@@ -9,7 +9,7 @@ body {
 /* Estilos para Firefox */
 html {
   scrollbar-width: thin; /* Opciones: auto, thin, none */
-  scrollbar-color: #c9d1d9 #0d1117; /* Thumb y track */
+  scrollbar-color: #c9d1d9 #0d1117;
 }
 
 /* Estilos para navegadores basados en WebKit (Chrome, Edge, Safari) */
