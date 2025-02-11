@@ -1,8 +1,5 @@
 import { DataTypes } from "sequelize";
 import { sequelize } from "@/app/db/connection";
-import Project from "@/app/db/models/project";
-import Experience from "@/app/db/models/experience";
-import Education from "@/app/db/models/education";
 
 const Technology = sequelize.define(
     "technology",

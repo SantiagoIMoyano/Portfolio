@@ -42,7 +42,6 @@ module.exports = {
         stack: 'Python'
       },
       {
-        //5
         type: 'Framework',
         name: 'Next.js',
         description: 'With the Next.js framework, which enables the development of web applications with both server-side and client-side functionalities, it ensures lightweight and secure software as much of the web runs on the server. I complemented Next.js with Node.js for backend development and React for frontend development, allowing the entire application to use a single programming language.',
@@ -61,7 +60,6 @@ module.exports = {
         stack: 'Java'
       },
       {
-        //7
         type: 'Framework',
         name: 'Express.js',
         description: 'Regarding the Express.js framework, I have primarily used it to develop simple applications such as web pages that perform basic CRUD operations with database records.',
@@ -79,7 +77,7 @@ module.exports = {
         sizeImage: 80,
         stack: 'Python'
       },
-      {//9
+      {
         type: 'Tool',
         name: 'RabbitMQ',
         description: 'With RabbitMQ, I have created the necessary components to transmit large amounts of data between an application and a remote server. These components acted as sender and receiver, depending on which part was sending the message and which was receiving it.',
@@ -97,7 +95,7 @@ module.exports = {
         sizeImage: 75,
         stack: 'JavaScript'
       },
-      {//11
+      {
         type: 'Tool',
         name: 'React',
         description: 'With React, when developing the frontend of applications, I have used various hooks such as useState, useEffect, and useRef. With these methods, I was able to handle various events, such as a click on a component or the rendering of a web page. Additionally, I have linked events between components to trigger specific functionality or effects.',
@@ -133,7 +131,7 @@ module.exports = {
         sizeImage: 90,
         stack: 'Database'
       },
-      {//15
+      {
         type: 'Database',
         name: 'MySQL',
         description: 'By using this database, I have created users with passwords and specific permissions to access databases. Specifically, I have placed databases with the MySQL engine in a container, which can be accessed with the correct credentials.',
@@ -151,7 +149,7 @@ module.exports = {
         sizeImage: 90,
         stack: 'Database'
       },
-      {//17
+      {
         type: 'Database',
         name: 'SQLite',
         description: 'Regarding this database, I have used it alongside various languages, such as Java, JavaScript, and Python. Since it is implemented as a file-based database, I have always used it in development environments, which allowed me to progress more quickly with the requested projects.',
@@ -169,7 +167,7 @@ module.exports = {
         sizeImage: 70,
         stack: 'DevOps'
       },
-      {//19
+      {
         type: 'CI/CD',
         name: 'Docker',
         description: 'I have used containers both in my academic training and professional experience. I know how to implement Dockerfiles to download images, host images in a repository, and also download those images I have created. Additionally, I have experience managing containers using a docker-compose.yml file, which allows me to split my application into different parts.',
