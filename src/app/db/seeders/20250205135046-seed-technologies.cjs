@@ -12,10 +12,7 @@ module.exports = {
         level: 'Intermediate/Advanced',
         image: 'https://res.cloudinary.com/diryq3v6r/image/upload/v1738886489/portfolio/nt7ylwt8kih6rxxpuv4q.svg',
         sizeImage: 75,
-        stack: 'Python',
-        id_project: null,
-        id_experience: 1,
-        id_education: 1
+        stack: 'Python'
       },
       {
         type: 'Language',
@@ -24,10 +21,7 @@ module.exports = {
         level: 'Intermediate',
         image: 'https://res.cloudinary.com/diryq3v6r/image/upload/v1738887086/portfolio/a2tr9ev649g9hf1pbbh4.svg',
         sizeImage: 65,
-        stack: 'JavaScript',
-        id_project: 1,
-        id_experience: 1,
-        id_education: 1
+        stack: 'JavaScript'
       },
       {
         type: 'Language',
@@ -36,10 +30,7 @@ module.exports = {
         level: 'Intermediate',
         image: 'https://res.cloudinary.com/diryq3v6r/image/upload/v1738887101/portfolio/y5bcvrtelibonadqf5vl.svg',
         sizeImage: 70,
-        stack: 'Java',
-        id_project: null,
-        id_experience: null,
-        id_education: 1
+        stack: 'Java'
       },
       {
         type: 'Framework',
@@ -48,22 +39,17 @@ module.exports = {
         level: 'Intermediate',
         image: 'https://res.cloudinary.com/diryq3v6r/image/upload/v1738887148/portfolio/agp1kh7garluoz5s5gjd.svg',
         sizeImage: 85,
-        stack: 'Python',
-        id_project: null,
-        id_experience: 1,
-        id_education: 1
+        stack: 'Python'
       },
       {
+        //5
         type: 'Framework',
         name: 'Next.js',
         description: 'With the Next.js framework, which enables the development of web applications with both server-side and client-side functionalities, it ensures lightweight and secure software as much of the web runs on the server. I complemented Next.js with Node.js for backend development and React for frontend development, allowing the entire application to use a single programming language.',
         level: 'Intermediate',
         image: 'https://res.cloudinary.com/diryq3v6r/image/upload/v1738887159/portfolio/ptmq0y2pi7zssjgf7fnf.svg',
         sizeImage: 75,
-        stack: 'JavaScript',
-        id_project: 1,
-        id_experience: null,
-        id_education: null
+        stack: 'JavaScript'
       },
       {
         type: 'Framework',
@@ -72,22 +58,17 @@ module.exports = {
         level: 'Intermediate',
         image: 'https://res.cloudinary.com/diryq3v6r/image/upload/v1738887172/portfolio/pybpumht9jgvgsjy2kc5.svg',
         sizeImage: 75,
-        stack: 'Java',
-        id_project: null,
-        id_experience: null,
-        id_education: 1
+        stack: 'Java'
       },
       {
+        //7
         type: 'Framework',
         name: 'Express.js',
         description: 'Regarding the Express.js framework, I have primarily used it to develop simple applications such as web pages that perform basic CRUD operations with database records.',
         level: 'Intermediate',
         image: 'https://res.cloudinary.com/diryq3v6r/image/upload/v1738887185/portfolio/rfhhbx8zk1o2zxtp5des.svg',
         sizeImage: 70,
-        stack: 'JavaScript',
-        id_project: null,
-        id_experience: 2,
-        id_education: 1
+        stack: 'JavaScript'
       },
       {
         type: 'Tool',
@@ -96,22 +77,16 @@ module.exports = {
         level: 'Intermediate',
         image: 'https://res.cloudinary.com/diryq3v6r/image/upload/v1738887200/portfolio/rgga5fazwanoxqnbh0az.svg',
         sizeImage: 80,
-        stack: 'Python',
-        id_project: null,
-        id_experience: 1,
-        id_education: null
+        stack: 'Python'
       },
-      {
+      {//9
         type: 'Tool',
         name: 'RabbitMQ',
         description: 'With RabbitMQ, I have created the necessary components to transmit large amounts of data between an application and a remote server. These components acted as sender and receiver, depending on which part was sending the message and which was receiving it.',
         level: 'Intermediate',
         image: 'https://res.cloudinary.com/diryq3v6r/image/upload/v1738887210/portfolio/xkey1hl50soq8nbzamym.svg',
         sizeImage: 63,
-        stack: 'Python',
-        id_project: null,
-        id_experience: 1,
-        id_education: null
+        stack: 'Python'
       },
       {
         type: 'Tool',
@@ -120,22 +95,16 @@ module.exports = {
         level: 'Intermediate',
         image: 'https://res.cloudinary.com/diryq3v6r/image/upload/v1738887227/portfolio/jaytb26lcsymujc7p2j8.svg',
         sizeImage: 75,
-        stack: 'JavaScript',
-        id_project: 1,
-        id_experience: 1,
-        id_education: 1
+        stack: 'JavaScript'
       },
-      {
+      {//11
         type: 'Tool',
         name: 'React',
         description: 'With React, when developing the frontend of applications, I have used various hooks such as useState, useEffect, and useRef. With these methods, I was able to handle various events, such as a click on a component or the rendering of a web page. Additionally, I have linked events between components to trigger specific functionality or effects.',
         level: 'Intermediate',
         image: 'https://res.cloudinary.com/diryq3v6r/image/upload/v1738887231/portfolio/loa21osuguiskqcykusc.svg',
         sizeImage: 75,
-        stack: 'JavaScript',
-        id_project: 1,
-        id_experience: 1,
-        id_education: 1
+        stack: 'JavaScript'
       },
       {
         type: 'Tool',
@@ -144,10 +113,7 @@ module.exports = {
         level: 'Intermediate',
         image: 'https://res.cloudinary.com/diryq3v6r/image/upload/v1738887249/portfolio/ljmcdx0jark55npottmp.svg',
         sizeImage: 70,
-        stack: 'Java',
-        id_project: null,
-        id_experience: null,
-        id_education: 1
+        stack: 'Java'
       },
       {
         type: 'Tool',
@@ -156,10 +122,7 @@ module.exports = {
         level: 'Intermediate',
         image: 'https://res.cloudinary.com/diryq3v6r/image/upload/v1738887256/portfolio/kej9yx7muq4xuv5f28z6.svg',
         sizeImage: 85,
-        stack: 'Java',
-        id_project: null,
-        id_experience: null,
-        id_education: 1
+        stack: 'Java'
       },
       {
         type: 'Database',
@@ -168,22 +131,16 @@ module.exports = {
         level: 'Intermediate',
         image: 'https://res.cloudinary.com/diryq3v6r/image/upload/v1738887276/portfolio/w4wn8tb8qap92sd9je6n.svg',
         sizeImage: 90,
-        stack: 'Database',
-        id_project: null,
-        id_experience: null,
-        id_education: 1
+        stack: 'Database'
       },
-      {
+      {//15
         type: 'Database',
         name: 'MySQL',
         description: 'By using this database, I have created users with passwords and specific permissions to access databases. Specifically, I have placed databases with the MySQL engine in a container, which can be accessed with the correct credentials.',
         level: 'Intermediate',
         image: 'https://res.cloudinary.com/diryq3v6r/image/upload/v1738887289/portfolio/ptbqnbngoryiohrjfm6h.svg',
         sizeImage: 65,
-        stack: 'Database',
-        id_project: 1,
-        id_experience: 1,
-        id_education: 1
+        stack: 'Database'
       },
       {
         type: 'Database',
@@ -192,22 +149,16 @@ module.exports = {
         level: 'Intermediate',
         image: 'https://res.cloudinary.com/diryq3v6r/image/upload/v1738887301/portfolio/ocoany4b3pj5x5zxbilc.svg',
         sizeImage: 90,
-        stack: 'Database',
-        id_project: null,
-        id_experience: 1,
-        id_education: null
+        stack: 'Database'
       },
-      {
+      {//17
         type: 'Database',
         name: 'SQLite',
         description: 'Regarding this database, I have used it alongside various languages, such as Java, JavaScript, and Python. Since it is implemented as a file-based database, I have always used it in development environments, which allowed me to progress more quickly with the requested projects.',
         level: 'Intermediate',
         image: 'https://res.cloudinary.com/diryq3v6r/image/upload/v1738887307/portfolio/jhhvyanhw6y2qey0e1sv.svg',
         sizeImage: 85,
-        stack: 'Database',
-        id_project: null,
-        id_experience: 2,
-        id_education: 1
+        stack: 'Database'
       },
       {
         type: 'CI/CD',
@@ -216,22 +167,16 @@ module.exports = {
         level: 'Intermediate',
         image: 'https://res.cloudinary.com/diryq3v6r/image/upload/v1738887321/portfolio/c6ifu2ukhszpvuoehk26.svg',
         sizeImage: 70,
-        stack: 'DevOps',
-        id_project: null,
-        id_experience: 1,
-        id_education: 1
+        stack: 'DevOps'
       },
-      {
+      {//19
         type: 'CI/CD',
         name: 'Docker',
         description: 'I have used containers both in my academic training and professional experience. I know how to implement Dockerfiles to download images, host images in a repository, and also download those images I have created. Additionally, I have experience managing containers using a docker-compose.yml file, which allows me to split my application into different parts.',
         level: 'Intermediate',
         image: 'https://res.cloudinary.com/diryq3v6r/image/upload/v1738887327/portfolio/rc5ffptfkj4runipbvb6.svg',
         sizeImage: 100,
-        stack: 'DevOps',
-        id_project: 1,
-        id_experience: 1,
-        id_education: 1
+        stack: 'DevOps'
       }
     ], {});
   },

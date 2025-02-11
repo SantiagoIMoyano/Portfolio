@@ -40,30 +40,6 @@ const Technology = sequelize.define(
         stack: {
             type: DataTypes.STRING(45),
             allowNull: false
-        },
-        id_project: {
-            type: DataTypes.INTEGER,
-            allowNull: true,
-            references: {
-                model: Project,
-                key: 'id'
-            }
-        },
-        id_experience: {
-            type: DataTypes.INTEGER,
-            allowNull: true,
-            references: {
-                model: Experience,
-                key: 'id'
-            }
-        },
-        id_education: {
-            type: DataTypes.INTEGER,
-            allowNull: true,
-            references: {
-                model: Education,
-                key: 'id'
-            }
         }
     },
     {
@@ -71,26 +47,5 @@ const Technology = sequelize.define(
         freezeTableName: true
     }
 )
-
-Project.hasMany(Technology, {
-    foreignKey: 'id_project',
-    onDelete: 'CASCADE',
-    onUpdate: 'CASCADE'
-})
-Technology.belongsTo(Project)
-
-Experience.hasMany(Technology, {
-    foreignKey: 'id_experience',
-    onDelete: 'CASCADE',
-    onUpdate: 'CASCADE'
-})
-Technology.belongsTo(Experience)
-
-Education.hasMany(Technology, {
-    foreignKey: 'id_education',
-    onDelete: 'CASCADE',
-    onUpdate: 'CASCADE'
-})
-Technology.belongsTo(Education)
 
 export default Technology;
