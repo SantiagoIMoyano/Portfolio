@@ -5,12 +5,8 @@ services:
   portfolio:
     build: ./portfolio
     container_name: portfolio-container
-    environment:
-    - MYSQL_DATABASE_DB=${MYSQL_DATABASE}
-    - MYSQL_DATABASE_USER=${MYSQL_USER}
-    - MYSQL_DATABASE_PASSWORD=${MYSQL_PASSWORD}
-    - MYSQL_DATABASE_HOST=${MYSQL_DATABASE_HOST}
-    - MYSQL_DATABASE_PORT=${MYSQL_DATABASE_PORT}
+    env_file:
+      - ./portfolio/.env
     depends_on:
       - db
     ports:
@@ -24,11 +20,8 @@ services:
     restart: always
     volumes:
       - db-data:/var/lib/mysql
-    environment:
-    - MYSQL_DATABASE=${MYSQL_DATABASE}
-    - MYSQL_USER=${MYSQL_USER}
-    - MYSQL_PASSWORD=${MYSQL_PASSWORD}
-    - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
+    env_file:
+      - ./db/.env
     networks:
       - network-portfolio
 
