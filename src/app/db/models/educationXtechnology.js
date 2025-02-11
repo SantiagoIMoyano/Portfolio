@@ -1,7 +1,5 @@
 import { DataTypes } from "sequelize";
 import { sequelize } from "@/app/db/connection";
-import Education from "@/app/db/models/education";
-import Technology from "@/app/db/models/technology";
 
 const EducationXTechnology = sequelize.define(
     'educationXtechnology',
@@ -11,7 +9,7 @@ const EducationXTechnology = sequelize.define(
             allowNull: false,
             primaryKey: true,
             references: {
-                model: Education,
+                model: 'education',
                 key: 'id'
             }
         },
@@ -20,7 +18,7 @@ const EducationXTechnology = sequelize.define(
             allowNull: false,
             primaryKey: true,
             references: {
-                model: Technology,
+                model: 'technology',
                 key: 'id'
             }
         }
@@ -31,7 +29,5 @@ const EducationXTechnology = sequelize.define(
     }
 )
 
-Education.belongsToMany(Technology, { through: EducationXTechnology })
-Technology.belongsToMany(Education, { through: EducationXTechnology })
 
 export default EducationXTechnology;
