@@ -1,8 +1,11 @@
 import { DataTypes } from "sequelize";
 import { sequelize } from "@/app/db/connection";
-import Project from "@/app/db/models/project";
-import Experience from "@/app/db/models/experience";
 import Education from "@/app/db/models/education";
+import Experience from "@/app/db/models/experience";
+import Project from "@/app/db/models/project";
+import EducationXTechnology from "@/app/db/models/educationXtechnology";
+import ExperienceXTechnology from "@/app/db/models/experienceXtechnology";
+import ProjectXTechnology from "@/app/db/models/projectXtechnology";
 
 const Technology = sequelize.define(
     "technology",
@@ -40,30 +43,6 @@ const Technology = sequelize.define(
         stack: {
             type: DataTypes.STRING(45),
             allowNull: false
-        },
-        id_project: {
-            type: DataTypes.INTEGER,
-            allowNull: true,
-            references: {
-                model: Project,
-                key: 'id'
-            }
-        },
-        id_experience: {
-            type: DataTypes.INTEGER,
-            allowNull: true,
-            references: {
-                model: Experience,
-                key: 'id'
-            }
-        },
-        id_education: {
-            type: DataTypes.INTEGER,
-            allowNull: true,
-            references: {
-                model: Education,
-                key: 'id'
-            }
         }
     },
     {
@@ -72,25 +51,46 @@ const Technology = sequelize.define(
     }
 )
 
-Project.hasMany(Technology, {
-    foreignKey: 'id_project',
-    onDelete: 'CASCADE',
-    onUpdate: 'CASCADE'
-})
-Technology.belongsTo(Project)
 
-Experience.hasMany(Technology, {
-    foreignKey: 'id_experience',
-    onDelete: 'CASCADE',
-    onUpdate: 'CASCADE'
-})
-Technology.belongsTo(Experience)
 
-Education.hasMany(Technology, {
+Education.belongsToMany(Technology, { 
+    through: EducationXTechnology,
+    foreignKey: 'id_technology',
+    foreignKey: 'id_education'
+})
+Technology.belongsToMany(Education, { 
+    through: EducationXTechnology,
     foreignKey: 'id_education',
-    onDelete: 'CASCADE',
-    onUpdate: 'CASCADE'
+    foreignKey: 'id_technology'
 })
-Technology.belongsTo(Education)
+
+
+
+
+Experience.belongsToMany(Technology, { 
+    through: ExperienceXTechnology,
+    foreignKey: 'id_technology',
+    foreignKey: 'id_experience'})
+
+Technology.belongsToMany(Experience, { 
+    through: ExperienceXTechnology,
+    foreignKey: 'id_experience',
+    foreignKey: 'id_technology'})
+
+
+
+
+Project.belongsToMany(Technology, { 
+    through: ProjectXTechnology,
+    foreignKey: 'id_technology',
+    foreignKey: 'id_project'})
+
+Technology.belongsToMany(Project, { 
+    through: ProjectXTechnology,
+    foreignKey: 'id_project',
+    foreignKey: 'id_technology'})
+
+
+
 
 export default Technology;

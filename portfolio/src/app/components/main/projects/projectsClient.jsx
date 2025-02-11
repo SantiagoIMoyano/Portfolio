@@ -49,7 +49,6 @@ export function ProjectsClient({ projects }) {
         </button>
         <div className={styles.projectsContainer}>
           {visibleProjects.map((project, index) => (
-            console.log(project),
             <div
               key={index}
               className={visibleProjects.length === 1 ? styles.singleProject : styles.project}

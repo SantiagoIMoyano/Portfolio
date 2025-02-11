@@ -3,5 +3,6 @@ import { fetchProjects } from "@/app/lib/projectData";
 
 export default async function Projects() {
     const { projects } = await fetchProjects();
+    console.log(projects);
     return <ProjectsClient projects={projects} />;
   }

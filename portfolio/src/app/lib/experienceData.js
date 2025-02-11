@@ -8,7 +8,8 @@ export async function fetchExperiences() {
             where: {role: 'FullStack'},
             include: [{
                 model: Technology,
-                attributes: ['image']
+                attributes: ['image'],
+                through: { attributes: [] }
             }]
         })
 

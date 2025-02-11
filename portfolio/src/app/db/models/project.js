@@ -49,5 +49,4 @@ Profile.hasMany(Project, {
 })
 Project.belongsTo(Profile)
 
-
 export default Project;

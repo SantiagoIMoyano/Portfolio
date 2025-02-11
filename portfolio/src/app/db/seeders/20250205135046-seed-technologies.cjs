@@ -12,10 +12,7 @@ module.exports = {
         level: 'Intermediate/Advanced',
         image: 'https://res.cloudinary.com/diryq3v6r/image/upload/v1738886489/portfolio/nt7ylwt8kih6rxxpuv4q.svg',
         sizeImage: 75,
-        stack: 'Python',
-        id_project: null,
-        id_experience: 1,
-        id_education: 1
+        stack: 'Python'
       },
       {
         type: 'Language',
@@ -24,10 +21,7 @@ module.exports = {
         level: 'Intermediate',
         image: 'https://res.cloudinary.com/diryq3v6r/image/upload/v1738887086/portfolio/a2tr9ev649g9hf1pbbh4.svg',
         sizeImage: 65,
-        stack: 'JavaScript',
-        id_project: 1,
-        id_experience: 1,
-        id_education: 1
+        stack: 'JavaScript'
       },
       {
         type: 'Language',
@@ -36,10 +30,7 @@ module.exports = {
         level: 'Intermediate',
         image: 'https://res.cloudinary.com/diryq3v6r/image/upload/v1738887101/portfolio/y5bcvrtelibonadqf5vl.svg',
         sizeImage: 70,
-        stack: 'Java',
-        id_project: null,
-        id_experience: null,
-        id_education: 1
+        stack: 'Java'
       },
       {
         type: 'Framework',
@@ -48,10 +39,7 @@ module.exports = {
         level: 'Intermediate',
         image: 'https://res.cloudinary.com/diryq3v6r/image/upload/v1738887148/portfolio/agp1kh7garluoz5s5gjd.svg',
         sizeImage: 85,
-        stack: 'Python',
-        id_project: null,
-        id_experience: 1,
-        id_education: 1
+        stack: 'Python'
       },
       {
         type: 'Framework',
@@ -60,10 +48,7 @@ module.exports = {
         level: 'Intermediate',
         image: 'https://res.cloudinary.com/diryq3v6r/image/upload/v1738887159/portfolio/ptmq0y2pi7zssjgf7fnf.svg',
         sizeImage: 75,
-        stack: 'JavaScript',
-        id_project: 1,
-        id_experience: null,
-        id_education: null
+        stack: 'JavaScript'
       },
       {
         type: 'Framework',
@@ -72,10 +57,7 @@ module.exports = {
         level: 'Intermediate',
         image: 'https://res.cloudinary.com/diryq3v6r/image/upload/v1738887172/portfolio/pybpumht9jgvgsjy2kc5.svg',
         sizeImage: 75,
-        stack: 'Java',
-        id_project: null,
-        id_experience: null,
-        id_education: 1
+        stack: 'Java'
       },
       {
         type: 'Framework',
@@ -84,10 +66,7 @@ module.exports = {
         level: 'Intermediate',
         image: 'https://res.cloudinary.com/diryq3v6r/image/upload/v1738887185/portfolio/rfhhbx8zk1o2zxtp5des.svg',
         sizeImage: 70,
-        stack: 'JavaScript',
-        id_project: null,
-        id_experience: 2,
-        id_education: 1
+        stack: 'JavaScript'
       },
       {
         type: 'Tool',
@@ -96,10 +75,7 @@ module.exports = {
         level: 'Intermediate',
         image: 'https://res.cloudinary.com/diryq3v6r/image/upload/v1738887200/portfolio/rgga5fazwanoxqnbh0az.svg',
         sizeImage: 80,
-        stack: 'Python',
-        id_project: null,
-        id_experience: 1,
-        id_education: null
+        stack: 'Python'
       },
       {
         type: 'Tool',
@@ -108,10 +84,7 @@ module.exports = {
         level: 'Intermediate',
         image: 'https://res.cloudinary.com/diryq3v6r/image/upload/v1738887210/portfolio/xkey1hl50soq8nbzamym.svg',
         sizeImage: 63,
-        stack: 'Python',
-        id_project: null,
-        id_experience: 1,
-        id_education: null
+        stack: 'Python'
       },
       {
         type: 'Tool',
@@ -120,10 +93,7 @@ module.exports = {
         level: 'Intermediate',
         image: 'https://res.cloudinary.com/diryq3v6r/image/upload/v1738887227/portfolio/jaytb26lcsymujc7p2j8.svg',
         sizeImage: 75,
-        stack: 'JavaScript',
-        id_project: 1,
-        id_experience: 1,
-        id_education: 1
+        stack: 'JavaScript'
       },
       {
         type: 'Tool',
@@ -132,10 +102,7 @@ module.exports = {
         level: 'Intermediate',
         image: 'https://res.cloudinary.com/diryq3v6r/image/upload/v1738887231/portfolio/loa21osuguiskqcykusc.svg',
         sizeImage: 75,
-        stack: 'JavaScript',
-        id_project: 1,
-        id_experience: 1,
-        id_education: 1
+        stack: 'JavaScript'
       },
       {
         type: 'Tool',
@@ -144,10 +111,7 @@ module.exports = {
         level: 'Intermediate',
         image: 'https://res.cloudinary.com/diryq3v6r/image/upload/v1738887249/portfolio/ljmcdx0jark55npottmp.svg',
         sizeImage: 70,
-        stack: 'Java',
-        id_project: null,
-        id_experience: null,
-        id_education: 1
+        stack: 'Java'
       },
       {
         type: 'Tool',
@@ -156,10 +120,7 @@ module.exports = {
         level: 'Intermediate',
         image: 'https://res.cloudinary.com/diryq3v6r/image/upload/v1738887256/portfolio/kej9yx7muq4xuv5f28z6.svg',
         sizeImage: 85,
-        stack: 'Java',
-        id_project: null,
-        id_experience: null,
-        id_education: 1
+        stack: 'Java'
       },
       {
         type: 'Database',
@@ -168,10 +129,7 @@ module.exports = {
         level: 'Intermediate',
         image: 'https://res.cloudinary.com/diryq3v6r/image/upload/v1738887276/portfolio/w4wn8tb8qap92sd9je6n.svg',
         sizeImage: 90,
-        stack: 'Database',
-        id_project: null,
-        id_experience: null,
-        id_education: 1
+        stack: 'Database'
       },
       {
         type: 'Database',
@@ -180,10 +138,7 @@ module.exports = {
         level: 'Intermediate',
         image: 'https://res.cloudinary.com/diryq3v6r/image/upload/v1738887289/portfolio/ptbqnbngoryiohrjfm6h.svg',
         sizeImage: 65,
-        stack: 'Database',
-        id_project: 1,
-        id_experience: 1,
-        id_education: 1
+        stack: 'Database'
       },
       {
         type: 'Database',
@@ -192,10 +147,7 @@ module.exports = {
         level: 'Intermediate',
         image: 'https://res.cloudinary.com/diryq3v6r/image/upload/v1738887301/portfolio/ocoany4b3pj5x5zxbilc.svg',
         sizeImage: 90,
-        stack: 'Database',
-        id_project: null,
-        id_experience: 1,
-        id_education: null
+        stack: 'Database'
       },
       {
         type: 'Database',
@@ -204,10 +156,7 @@ module.exports = {
         level: 'Intermediate',
         image: 'https://res.cloudinary.com/diryq3v6r/image/upload/v1738887307/portfolio/jhhvyanhw6y2qey0e1sv.svg',
         sizeImage: 85,
-        stack: 'Database',
-        id_project: null,
-        id_experience: 2,
-        id_education: 1
+        stack: 'Database'
       },
       {
         type: 'CI/CD',
@@ -216,10 +165,7 @@ module.exports = {
         level: 'Intermediate',
         image: 'https://res.cloudinary.com/diryq3v6r/image/upload/v1738887321/portfolio/c6ifu2ukhszpvuoehk26.svg',
         sizeImage: 70,
-        stack: 'DevOps',
-        id_project: null,
-        id_experience: 1,
-        id_education: 1
+        stack: 'DevOps'
       },
       {
         type: 'CI/CD',
@@ -228,10 +174,7 @@ module.exports = {
         level: 'Intermediate',
         image: 'https://res.cloudinary.com/diryq3v6r/image/upload/v1738887327/portfolio/rc5ffptfkj4runipbvb6.svg',
         sizeImage: 100,
-        stack: 'DevOps',
-        id_project: 1,
-        id_experience: 1,
-        id_education: 1
+        stack: 'DevOps'
       }
     ], {});
   },

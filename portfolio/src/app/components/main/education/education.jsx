@@ -12,7 +12,6 @@ export default async function Education () {
     return (
       <Card title="Education">
         {educations.map((education, index) => (
-          console.log(education),
           <Card key={index} title={education.institution} centerTitle>
           <div className={styles.subtitle}>
             {education.degree}
