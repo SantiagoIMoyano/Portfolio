@@ -19,9 +19,6 @@ ENV NODE_ENV=production
 # Copiamos todo el código necesario de la etapa builder
 COPY --from=builder /app ./
 
-# Instalamos netcat para poder esperar la DB
-RUN apk add --no-cache netcat-openbsd
-
 # Copiar el entrypoint script
 COPY entrypoint.sh ./
 RUN chmod +x entrypoint.sh

@@ -51,7 +51,7 @@ jobs:
       DOCKER_HUB_USERNAME: ${{ secrets.DOCKER_HUB_USERNAME }}
       DOCKER_HUB_PASSWORD: ${{ secrets.DOCKER_HUB_PASSWORD }}
       RENDER_API_KEY: ${{ secrets.RENDER_API_KEY }}
-      # SERVICE_ID: ${{ secrets.SERVICE_ID }}
+      SERVICE_ID: ${{ secrets.SERVICE_ID }}
     steps:
       - name: Check out code
         uses: actions/checkout@v2
@@ -67,10 +67,10 @@ jobs:
           docker build -t $DOCKER_HUB_USERNAME/portfolio:latest .
           docker push $DOCKER_HUB_USERNAME/portfolio:latest
       
-      # - name: Desplegar en Render
-      #   run: |
-      #     curl -X POST "https://api.render.com/v1/services/$SERVICE_ID/deploys" \
-      #     -H "Authorization: Bearer $RENDER_API_KEY" \
-      #     -H "Accept: application/json" \
-      #     -H "Content-Type: application/json" \
-      #     -d '{}'
+      - name: Desplegar en Render
+        run: |
+          curl -X POST "https://api.render.com/v1/services/$SERVICE_ID/deploys" \
+          -H "Authorization: Bearer $RENDER_API_KEY" \
+          -H "Accept: application/json" \
+          -H "Content-Type: application/json" \
+          -d '{}'
