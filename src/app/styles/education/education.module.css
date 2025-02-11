@@ -34,3 +34,11 @@
     text-align: center; /* Asegura que el texto esté centrado */
     font-weight: 500; /* Peso de fuente medio para resaltar el subtítulo */
 }
+
+@media (max-width: 857px) {
+    .skills {
+        display: block;
+        width: 100%;
+        justify-items: center;
+    }
+}
