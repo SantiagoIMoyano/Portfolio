@@ -1,38 +1,43 @@
 # Portfolio
 
-## Contenido del repositorio
+## Repository Content
 
-En este repositorio encontrará el código necesario para hacer funcional este proyecto. En el mismo, se visualizan las carpetas `db` y `portfolio`. Esas carpetas tienen las utilidades de base de datos y del código del proyecto. 
-También, junto a estos directorios, encontrá un archivo docker-compose.yml que es el encargado de orquestar la base de datos y le portafolio garantizando que todo se despliegue en orden. Debido a que se cuenta con un archivo `docker-compose.yml` este proyecto en esta forma está preparado para ser ejecutado de forma local en contenedores docker
+In this repository, you will find the necessary code to make this project functional. The repository contains the `db` and `portfolio` folders. These folders include the database utilities and the project code.  
+Additionally, alongside these directories, you will find a `docker-compose.yml` file, which is responsible for orchestrating the database and the portfolio, ensuring that everything is deployed in the correct order. Since a `docker-compose.yml` file is included, this project is set up to be executed locally using Docker containers.
 
-## Tecnologías utilizadas
-- Lenguaje: JavaScript
+## Technologies Used
+- Language: JavaScript
 - Frontend: Next.js, React, CSS, driver.js
 - Backend: Node.js, Next.js, Sequelize
-- Base de datos: MySQL
+- Database: MySQL
 - CI/CD: Docker
-- Servicios: Cloudinary
+- Services: Cloudinary
 
-## Requisitos para ejecución
-1. Si se usa Windows, se debe tener instalado Docker Desktop. En caso contrario, instalar Docker.
+## Execution Requirements
+1. If using Windows, Docker Desktop must be installed. Otherwise, install Docker.
 
-2. Tener Git instalado (opcional para clonar el repositorio)
+2. Have Git installed (optional for cloning the repository).
 
-## Ejecución de contenedores
+## Running Containers
 
-Primeramente, se debe clonar el repositorio en algun directorio de su sistema con el comando `git clone https://github.com/SantiagoIMoyano/Portfolio.git`. 
+First, you need to clone the repository into a directory on your system using the command:  
+`git clone https://github.com/SantiagoIMoyano/Portfolio.git`.  
 
-Si no quiere hacerlo con "Git", puede descrgar un archivo ".zip" desde el repositorio de Github en el siguiente link: `https://github.com/SantiagoIMoyano/Portfolio`. Luego, descomprima el archivo y verá el contenido del proyecto.
+If you do not want to use Git, you can download a `.zip` file from the GitHub repository at the following link:  
+`https://github.com/SantiagoIMoyano/Portfolio`.  
+Then, extract the file, and you will see the project content.
 
-Como siguiente paso, si usa Windows, asegurese de tener iniciado y ejecutandose el programa "Docker Desktop", esto es esencial para ejecutar el proyecto.
-Si posee otro sistema operativo, este paso no es obligatorio.
+Next, if you are using Windows, make sure that "Docker Desktop" is running. This is essential to execute the project.  
+If you are using another operating system, this step is not required.
 
-Ahora, abra una terminal en su sistema, dentro de la carpeta del proyecto (directorio Portfolio) y ejecute los siguientes comandos en el orden en el que se establecen aquí:
+Now, open a terminal on your system, navigate to the project folder (Portfolio directory), and execute the following commands in the specified order:
 
 1. `docker-compose build`
 
-2. `docker-compose up -d` si no desea ver los logs de los contenedores, o `docker-compose up` en el caso de que si quiera verlos.
+2. `docker-compose up -d` if you do not want to see the container logs, or `docker-compose up` if you do.
 
-Luego, al desplegarse los contenedores, el portafolio estará disponible en la siguiente dirección: `localhost:3000`
+Once the containers are deployed, the portfolio will be available at the following address:  
+`localhost:3000`
 
-Por último, si ha termiando de explorar el proyecto, puede detener y eliminar los contenedores con el comando: `docker-compose down`
+Finally, if you have finished exploring the project, you can stop and remove the containers using the command:  
+`docker-compose down`
