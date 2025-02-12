@@ -14,6 +14,9 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v2
 
+      - name: Install dependencies
+        run: npm install
+         
       - name: Ejecutar entrypoint.sh
         run: |
           chmod +x entrypoint.sh
