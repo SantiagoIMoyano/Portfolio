@@ -37,7 +37,7 @@ Now, open a terminal on your system, navigate to the project folder (Portfolio d
 2. `docker-compose up -d` if you do not want to see the container logs, or `docker-compose up` if you do.
 
 Once the containers are deployed, the portfolio will be available at the following address:  
-`localhost:3000`
+`localhost:3000`.
 
 Finally, if you have finished exploring the project, you can stop and remove the containers using the command:  
-`docker-compose down`
+`docker-compose down`.
