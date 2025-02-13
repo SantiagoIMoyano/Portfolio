@@ -24,7 +24,7 @@ RUN apk add --no-cache netcat-openbsd
 
 # Copiar el entrypoint script
 COPY entrypoint.sh ./
-RUN chmod +x entrypoint.sh
+RUN sed -i 's/\r$//' entrypoint.sh && chmod +x entrypoint.sh
 
 EXPOSE 3000
 
