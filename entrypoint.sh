@@ -7,7 +7,7 @@ npx sequelize-cli db:seed:undo:all
 #Eliminar migraciones previas
 npx sequelize-cli db:migrate:undo:all
 
-# Ejecuta las migraciones
+# Ejecuta las migraciones 
 npx sequelize-cli db:migrate
 
 # Ejecuta los seeders
