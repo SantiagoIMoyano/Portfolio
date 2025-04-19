@@ -1,7 +1,7 @@
 #!/bin/sh
 set -e
 
-# Eliminar seeders previos 
+# Eliminar seeders previos
 npx sequelize-cli db:seed:undo:all
 
 #Eliminar migraciones previas
