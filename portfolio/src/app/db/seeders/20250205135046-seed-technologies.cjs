@@ -69,6 +69,17 @@ module.exports = {
         stack: 'JavaScript'
       },
       {
+        //8
+        type: 'Framework',
+        name: 'TensorFlow',
+        description: 'With TensorFlow, I have been able to develop artificial intelligence models using a variety of neural networks. Together with the Python programming language, I designed, trained, evaluated, and made predictions with these models using extensive data for both training and evaluation.',
+        level: 'Intermediate',
+        image: 'https://res.cloudinary.com/diryq3v6r/image/upload/v1746917097/tensorflow_ekrad4.svg',
+        sizeImage: 70,
+        stack: 'Machine_Learning'
+      },
+      {
+        //9
         type: 'Tool',
         name: 'Celery',
         description: 'Using the Celery tool has given me the ability to execute queued tasks once they have been submitted by the microservice that requires them. This allows for asynchronous processing between the microservice\'s code and the server\'s subsequent response.',
@@ -87,6 +98,7 @@ module.exports = {
         stack: 'Python'
       },
       {
+        // 11
         type: 'Tool',
         name: 'Node.js',
         description: 'I have used the Node.js runtime environment for developing backend applications in JavaScript, which has allowed me to test the developed functions locally before deploying them to production, as well as using it in production environments. With this environment, I have been able to run everything necessary for the proper functioning of the implemented code.',
@@ -96,6 +108,7 @@ module.exports = {
         stack: 'JavaScript'
       },
       {
+        // 12
         type: 'Tool',
         name: 'React',
         description: 'With React, when developing the frontend of applications, I have used various hooks such as useState, useEffect, and useRef. With these methods, I was able to handle various events, such as a click on a component or the rendering of a web page. Additionally, I have linked events between components to trigger specific functionality or effects.',
@@ -123,6 +136,67 @@ module.exports = {
         stack: 'Java'
       },
       {
+        // 15
+        type: 'Tool',
+        name: 'Keras',
+        description: 'The Keras library has enabled me to design multi-layer neural network architectures—using dense layers, LSTMs, convolutional layers, and more. I\'ve also been able to configure optimizers and loss functions such as Adam and Binary Crossentropy. Additionally, thanks to this library, I\'ve been able to modularize the training, evaluation, and prediction workflows within my projects.',
+        level: 'Intermediate',
+        image: 'https://res.cloudinary.com/diryq3v6r/image/upload/v1746916963/Keras_p9hy4n.svg',
+        sizeImage: 65,
+        stack: 'Machine_Learning'
+      },
+      {
+        // 16
+        type: 'Tool',
+        name: 'Matplotlib',
+        description: 'With this tool, I\'ve been able to plot various datasets—as well as the evaluation results, training progress, and predictions of the AI models I developed. This capability has given me clearer insights during analysis and has guided me in the search for better machine learning model designs.',
+        level: 'Intermediate',
+        image: 'https://res.cloudinary.com/diryq3v6r/image/upload/v1746916974/matplotlib_akmpwk.svg',
+        sizeImage: 75,
+        stack: 'Machine_Learning'
+      },
+      {
+        // 17
+        type: 'Tool',
+        name: 'Pandas',
+        description: 'I\'ve employed the Pandas library to load the training and evaluation data needed for the proper development of my machine learning models. Mostly, I\'ve used it to import data from “.csv” files and to preview records in an intuitive tabular format.',
+        level: 'Intermediate',
+        image: 'https://res.cloudinary.com/diryq3v6r/image/upload/v1746917031/pandas_xio8v9.svg',
+        sizeImage: 70,
+        stack: 'Machine_Learning'
+      },
+      {
+        // 18
+        type: 'Tool',
+        name: 'NumPy',
+        description: 'This library has been extremely useful to me, as it has enabled me to perform multiple data preprocessing steps to extract the most relevant information, combine datasets, and format them as required by machine learning models. I\'ve also used it to create arrays and matrices, which are essential for the proper functioning of the models I\'ve developed.',
+        level: 'Intermediate',
+        image: 'https://res.cloudinary.com/diryq3v6r/image/upload/v1746917018/numpy_zkkcav.svg',
+        sizeImage: 70,
+        stack: 'Machine_Learning'
+      },
+      {
+        // 19
+        type: 'Tool',
+        name: 'Scikit-learn',
+        description: 'This library has allowed me to configure models such as Nearest Neighbors, along with various algorithms and metrics. In this way, I\'ve been able to simplify model development and focus on other tasks like data extraction, preprocessing, and analyzing the problem to be solved.',
+        level: 'Basic',
+        image: 'https://res.cloudinary.com/diryq3v6r/image/upload/v1746917072/scikitlearn_ayfho5.svg',
+        sizeImage: 92,
+        stack: 'Machine_Learning'
+      },
+      {
+        // 20
+        type: 'Tool',
+        name: 'Pytest',
+        description: 'With the Pytest library, I\'ve developed various tests that, for the most part, ensure the AI model I built solves the problem at hand acceptably. Using this library makes it easy to see at a glance whether any test has failed or if they\'ve all passed.',
+        level: 'Intermediate',
+        image: 'https://res.cloudinary.com/diryq3v6r/image/upload/v1746917045/pytest_b5efee.svg',
+        sizeImage: 95,
+        stack: 'Machine_Learning'
+      },
+      {
+        // 21
         type: 'Database',
         name: 'SQL Server',
         description: 'With the SQL Server database, I have performed basic operations using SQL statements, such as reading, creating, updating, and deleting records, tables, and databases. Additionally, I have implemented tables with primary keys composed of more than one attribute, and relationships between tables, including one-to-one, one-to-many, and many-to-many (using intermediate tables).',
@@ -132,6 +206,7 @@ module.exports = {
         stack: 'Database'
       },
       {
+        // 22
         type: 'Database',
         name: 'MySQL',
         description: 'By using this database, I have created users with passwords and specific permissions to access databases. Specifically, I have placed databases with the MySQL engine in a container, which can be accessed with the correct credentials.',
@@ -141,6 +216,7 @@ module.exports = {
         stack: 'Database'
       },
       {
+        //23
         type: 'Database',
         name: 'Oracle Database',
         description: 'To use the Oracle database remotely, I had to use a set of special files to connect. These files contained, among other things, the connection configurations. Additionally, I have worked with both older and current versions of this database engine.',
@@ -150,6 +226,7 @@ module.exports = {
         stack: 'Database'
       },
       {
+        //24
         type: 'Database',
         name: 'SQLite',
         description: 'Regarding this database, I have used it alongside various languages, such as Java, JavaScript, and Python. Since it is implemented as a file-based database, I have always used it in development environments, which allowed me to progress more quickly with the requested projects.',
@@ -168,6 +245,7 @@ module.exports = {
         stack: 'DevOps'
       },
       {
+        // 26
         type: 'CI/CD',
         name: 'Docker',
         description: 'I have used containers both in my academic training and professional experience. I know how to implement Dockerfiles to download images, host images in a repository, and also download those images I have created. Additionally, I have experience managing containers using a docker-compose.yml file, which allows me to split my application into different parts.',
