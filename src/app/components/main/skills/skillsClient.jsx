@@ -19,7 +19,8 @@ export function SkillsClient({ technologies }){
         JavaScript: "#f7df1e",
         Java: "#b07219",
         Database: "#ffffff",
-        DevOps: "#ff5733"
+        DevOps: "#ff5733",
+        Machine_Learning: "#26913d"
     };
 
     useEffect(() => {

@@ -26,10 +26,6 @@ module.exports = {
       },
       {
         id_education: 1,
-        id_technology: 10
-      },
-      {
-        id_education: 1,
         id_technology: 11
       },
       {
@@ -46,19 +42,23 @@ module.exports = {
       },
       {
         id_education: 1,
-        id_technology: 15
+        id_technology: 21
       },
       {
         id_education: 1,
-        id_technology: 17
+        id_technology: 22
       },
       {
         id_education: 1,
-        id_technology: 18
+        id_technology: 24
       },
       {
         id_education: 1,
-        id_technology: 19
+        id_technology: 25
+      },
+      {
+        id_education: 1,
+        id_technology: 26
       }
     ], {})
   },
@@ -67,3 +67,4 @@ module.exports = {
     await queryInterface.bulkDelete('educationXtechnology', null, {});
   }
 };
+
